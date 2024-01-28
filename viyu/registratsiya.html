@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration</title>
+	<link rel="stylesheet" href="registration.css">
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+<div class="wrapper">
+<h1><b>KIRISH</b></h1>
+<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">Ism</label>
+    <input type="ism" class="form-control" id="ism" placeholder="Ismingizni kiriting" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Familiya</label>
+    <input type="familiya" class="form-control" id="familiya"  placeholder="familiyangizni kiriting" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">Foydalanuvchi nomi</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="nickname" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="nickname kiriting" required>
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+   <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">Shahar</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Kiritish...</option>
+      <option>Samarqand</option>
+    </select>
+    <div class="invalid-feedback">
+      Davlat nomini kiriting
+    </div>
+  </div>
+  
+    <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">Davlat</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Kiritish...</option>
+      <option>Uzbekistan</option>
+    </select>
+    <div class="invalid-feedback">
+      Davlat nomini kiriting
+    </div>
+  </div>
+  
+    <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">Jins</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Kiritish...</option>
+      <option>Erkak</option>
+<option>Ayol</option>
+    </select>
+    <div class="invalid-feedback">
+      Davlat nomini kiriting
+    </div>
+  </div>
+
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="checkbox" required>
+      <label class="form-check-label" for="invalidCheck">
+      Hamma <a href="">shart</a>larga roziman
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button type="button" id="button"onclick="location.href='../viyu/!/viyu.html'">Kirish</button>
+</form>
+
+</div>
+<script src="../viyu/!/form.js"></script>
+
+
+
+</body>
+</html>
